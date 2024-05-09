@@ -23,6 +23,10 @@ export default defineConfig({
                 { label: "Withdraw", link: "/guides/economy/withdraw" },
               ],
             },
+            {
+              label: "Fun",
+              items: [{ label: "Connect4", link: "/guides/fun/c4" }],
+            },
           ],
         },
       ],
