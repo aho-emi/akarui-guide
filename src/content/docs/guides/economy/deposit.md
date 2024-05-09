@@ -23,6 +23,7 @@ client.command({
   $let[amtToDep;$ifAwaited[$getGlobalUserVar[money]>$get[maxAmtCanDep];$get[maxAmtCanDep];$getGlobalUserVar[money]]]
   $let[maxAmtCanDep;$math[$getGlobalUserVar[bankLimit]-$getGlobalUserVar[bank]]]
 
+  $onlyIf[$getGlobalUserVar[money]>=0;You don't have any money to deposit.]
   $elseif[$isNumber[$message[1]]==true]
   Deposited \`$numberSeparator[$get[amtToDep];,]\` into the bank. $ifAwaited[$getGlobalUserVar[bank]==$getGlobalUserVar[bankLimit];Bank is full now!]
 

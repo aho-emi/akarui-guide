@@ -34,7 +34,7 @@ client.command({
   $endelseif
   $endif
   
-  $onlyif[$getGlobalUserVar[bank;$authorId]!=0;You have no money to withdraw.]
+  $onlyif[$getGlobalUserVar[bank;$authorId]>0;You have no money to withdraw.]
   `,
 });
 ```
