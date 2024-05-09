@@ -5,7 +5,7 @@ description: Command to send a message each time any user sends a message.
 
 Command to send a message each time any user sends a message.
 
-**Credit**: [ahoemi.offficial](https://discord.com/users/769525910164471821)
+**Credit**: [saiaamako](https://discord.com/users/769525910164471821)
 
 ### Variables
 
