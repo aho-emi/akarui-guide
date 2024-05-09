@@ -3,7 +3,7 @@ title: Deposit
 description: Command to see s user's balance.
 ---
 
-Command to see s user's balance.
+Command to deposit money into the bank.
 
 **Credit**: [ahoemi.offficial](https://discord.com/users/715852000096419900)
 

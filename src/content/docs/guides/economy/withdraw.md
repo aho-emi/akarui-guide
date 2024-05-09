@@ -3,7 +3,7 @@ title: Withdraw
 description: Command to see s user's balance.
 ---
 
-Command to see s user's balance.
+Command to withdraw money from bank.
 
 **Credit**: [ahoemi.offficial](https://discord.com/users/715852000096419900)
 
