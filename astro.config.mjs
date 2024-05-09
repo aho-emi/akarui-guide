@@ -18,8 +18,9 @@ export default defineConfig({
             {
               label: "Economy",
               items: [
-                // Each item here is one entry in the navigation menu.
                 { label: "Balance", link: "/guides/economy/balance" },
+                { label: "Deposit", link: "/guides/economy/deposit" },
+                { label: "Withdraw", link: "/guides/economy/withdraw" },
               ],
             },
           ],
