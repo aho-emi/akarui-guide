@@ -14,12 +14,15 @@ export default defineConfig({
           label: "Guides",
           items: [
             // Each item here is one entry in the navigation menu.
-            { label: "Sticky Message", link: "/guides/sticky_message/" },
+            { label: "Sticky Message", link: "/guides/sticky_message" },
+            {
+              label: "Economy",
+              items: [
+                // Each item here is one entry in the navigation menu.
+                { label: "Balance", link: "/guides/economy/balance" },
+              ],
+            },
           ],
-        },
-        {
-          label: "Reference",
-          autogenerate: { directory: "reference" },
         },
       ],
     }),

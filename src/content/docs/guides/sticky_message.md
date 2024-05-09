@@ -1,10 +1,11 @@
 ---
 title: Sticky Message
-description: Command to send a message esach time any user sends a message.
+description: Command to send a message each time any user sends a message.
 ---
 
-Guides lead a user through a specific task they want to accomplish, often with a sequence of steps.
-Writing a good guide requires thinking about what your users are trying to do.
+Command to send a message each time any user sends a message.
+
+**Credit**: [ahoemi.offficial](https://discord.com/users/769525910164471821)
 
 ### Variables
 
