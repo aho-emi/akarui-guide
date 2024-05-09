@@ -11,8 +11,9 @@ Command to see s user's balance.
 
 ```js
 client.variables({
-  money: "",
-  bank: "",
+  bank: 0,
+  bankLimit: 10000,
+  money: 0,
 });
 ```
 
@@ -21,13 +22,13 @@ client.variables({
 ```js
 client.command({
   name: "balance",
-  aliases: ["bal", "money", "bank"],
+  aliases: ["bal", "money", "bank", "cash"],
   code: `
   $author[$username[$get[id]];$userAvatar[$get[id]]]
   $title[\[ Balance \]]
-  $description[🪙 **__Wallet__ :** \`$numberSeparator[$getUserVar[money;$get[id]];,]\`
-  🏦 **__Bank__   :** \`$numberSeparator[$getUserVar[bank;$get[id]];,]\`
-  💰 **__Net Worth__:** \`$numberSeparator[$sum[$getUserVar[bank;$get[id]];$getUserVar[bank;$get[id]]];,]\`]
+  $description[🪙 | **__Wallet__ :** \`$numberSeparator[$getGlobalUserVar[money;$get[id]];,]\`
+  🏦 | **__Bank__   :** \`$numberSeparator[$getGlobalUserVar[bank;$get[id]];,]\` / \`$numberSeparator[$getGlobalUserVar[bankLimit;$get[id]];,]\`
+  💰 | **__Net Worth__:** \`$numberSeparator[$sum[$getGlobalUserVar[bank;$get[id]];$getGlobalUserVar[money;$get[id]]];,]\`]
   $footer[Akarui: Guide]
   $color[Random]
   
