@@ -1,5 +1,5 @@
 ---
-title: Balance
+title: Withdraw
 description: Command to see s user's balance.
 ---
 
