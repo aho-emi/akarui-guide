@@ -25,9 +25,7 @@ export default defineConfig({
             },
             {
               label: "Fun",
-              items: [
-                /*{ label: "Connect4", link: "/guides/fun/c4" }*/
-              ],
+              items: [{ label: "Connect4", link: "/guides/fun/c4" }],
             },
           ],
         },
