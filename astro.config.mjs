@@ -21,6 +21,7 @@ export default defineConfig({
                 { label: "Balance", link: "/guides/economy/balance" },
                 { label: "Deposit", link: "/guides/economy/deposit" },
                 { label: "Withdraw", link: "/guides/economy/withdraw" },
+                { label: "Crime & Rob", link: "/guides/economy/crime_rob" },
               ],
             },
             {

@@ -1,5 +1,5 @@
 ---
-title: Fun & Crime Command
+title: Crime & Rob Command
 description: Fun command for economy bot.
 ---
 
