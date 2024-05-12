@@ -9,7 +9,7 @@ Fun command for economy bot.
 
 ### Variables
 
-```js
+```diff lang="js"
 client.variables({
   bank: 0,
   bankLimit: 10000,
