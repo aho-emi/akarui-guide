@@ -5,8 +5,6 @@ description: Fun command for economy bot.
 
 Fun command for economy bot.
 
-**Credit**: [ahoemi.offficial](https://discord.com/users/715852000096419900)
-
 ### Variables
 
 ```diff lang="js"

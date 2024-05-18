@@ -5,8 +5,6 @@ description: Fun command
 
 Fun command to play wordle.
 
-**Credit**: [ahoemi.offficial](https://discord.com/users/715852000096419900)
-
 ### Requirement
 
 ```bash

@@ -5,8 +5,6 @@ description: Command to see s user's balance.
 
 Command to see s user's balance.
 
-**Credit**: [ahoemi.offficial](https://discord.com/users/715852000096419900)
-
 ### Variables
 
 ```js
