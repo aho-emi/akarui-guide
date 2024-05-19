@@ -28,11 +28,6 @@ export default defineConfig({
               collapsed: true,
               autogenerate: { directory: "/guides/fun" },
             },
-            {
-              label: "",
-              collapsed: true,
-              autogenerate: { directory: "/guides/code" },
-            },
           ],
         },
       ],
