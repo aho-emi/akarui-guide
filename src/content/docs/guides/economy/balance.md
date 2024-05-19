@@ -1,6 +1,9 @@
 ---
 title: Balance
 description: Command to see s user's balance.
+sidebar:
+  label: Balance
+  order: 1
 ---
 
 Command to see s user's balance.

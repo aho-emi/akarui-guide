@@ -1,6 +1,11 @@
 ---
 title: Sticky Message
 description: Command to send a message each time any user sends a message.
+pagefind: false
+sidebar:
+  hidden: true
+prev: false
+next: false
 ---
 
 Command to send a message each time any user sends a message.

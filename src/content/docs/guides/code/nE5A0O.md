@@ -1,6 +1,11 @@
 ---
 title: Crime & Rob Command
 description: Fun command for economy bot.
+pagefind: false
+sidebar:
+  hidden: true
+prev: false
+next: false
 ---
 
 Fun command for economy bot.

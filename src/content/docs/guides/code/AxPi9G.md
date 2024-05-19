@@ -1,6 +1,11 @@
 ---
 title: Withdraw
 description: Command to see s user's balance.
+pagefind: false
+sidebar:
+  hidden: true
+prev: false
+next: false
 ---
 
 Command to withdraw money from bank.

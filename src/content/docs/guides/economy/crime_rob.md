@@ -1,6 +1,9 @@
 ---
 title: Crime & Rob Command
 description: Fun command for economy bot.
+sidebar:
+  label: Crime & Rob
+  order: 4
 ---
 
 Fun command for economy bot.

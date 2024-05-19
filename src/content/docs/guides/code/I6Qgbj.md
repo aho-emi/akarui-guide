@@ -1,6 +1,11 @@
 ---
 title: Fish
 description: Fun command
+pagefind: false
+sidebar:
+  hidden: true
+prev: false
+next: false
 ---
 
 Fun command to play catch and sell fish.

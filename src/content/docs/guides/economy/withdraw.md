@@ -1,6 +1,9 @@
 ---
 title: Withdraw
 description: Command to see s user's balance.
+sidebar:
+  label: Withdraw
+  order: 2
 ---
 
 Command to withdraw money from bank.

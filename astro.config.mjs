@@ -16,29 +16,22 @@ export default defineConfig({
             // Each item here is one entry in the navigation menu.
             {
               label: "Utility",
-              items: [
-                {
-                  label: "Sticky Message",
-                  link: "/guides/utility/sticky_message",
-                },
-              ],
+              autogenerate: { directory: "utility" },
             },
             {
               label: "Economy",
-              items: [
-                { label: "Balance", link: "/guides/economy/balance" },
-                { label: "Deposit", link: "/guides/economy/deposit" },
-                { label: "Withdraw", link: "/guides/economy/withdraw" },
-                { label: "Crime & Rob", link: "/guides/economy/crime_rob" },
-              ],
+              collapsed: true,
+              autogenerate: { directory: "economy" },
             },
             {
               label: "Fun",
-              items: [
-                { label: "Connect4", link: "/guides/fun/c4" },
-                { label: "Wordle", link: "/guides/fun/wordle" },
-                { label: "Fish", link: "/guides/fun/fish" },
-              ],
+              collapsed: true,
+              autogenerate: { directory: "fun" },
+            },
+            {
+              label: "",
+              collapsed: true,
+              autogenerate: { directory: "code" },
             },
           ],
         },

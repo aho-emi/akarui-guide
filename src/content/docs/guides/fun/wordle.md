@@ -1,6 +1,9 @@
 ---
 title: Wordle
 description: Fun command
+sidebar:
+  label: Wordle
+  order: 2
 ---
 
 Fun command to play wordle.

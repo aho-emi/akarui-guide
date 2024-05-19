@@ -1,6 +1,9 @@
 ---
 title: Fish
 description: Fun command
+sidebar:
+  label: Fish
+  order: 3
 ---
 
 Fun command to play catch and sell fish.

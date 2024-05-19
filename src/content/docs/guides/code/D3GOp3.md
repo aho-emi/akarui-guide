@@ -1,6 +1,11 @@
 ---
 title: Connect4
 description: Fun command
+pagefind: false
+sidebar:
+  hidden: true
+prev: false
+next: false
 ---
 
 Fun command to play connect4 with your friend

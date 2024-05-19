@@ -1,6 +1,9 @@
 ---
 title: Deposit
 description: Command to see s user's balance.
+sidebar:
+  label: Deposit
+  order: 3
 ---
 
 Command to deposit money into the bank.
