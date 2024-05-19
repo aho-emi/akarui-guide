@@ -17,24 +17,27 @@ export default defineConfig({
             {
               label: "Utility",
               items: [
-                { label: "Sticky Message", link: "/guide/sticky_message" },
+                {
+                  label: "Sticky Message",
+                  link: "/guides/utility/sticky_message",
+                },
               ],
             },
             {
               label: "Economy",
               items: [
-                { label: "Balance", link: "/guide/economy/balance" },
-                { label: "Deposit", link: "/guide/economy/deposit" },
-                { label: "Withdraw", link: "/guide/economy/withdraw" },
-                { label: "Crime & Rob", link: "/guide/economy/crime_rob" },
+                { label: "Balance", link: "/guides/economy/balance" },
+                { label: "Deposit", link: "/guides/economy/deposit" },
+                { label: "Withdraw", link: "/guides/economy/withdraw" },
+                { label: "Crime & Rob", link: "/guides/economy/crime_rob" },
               ],
             },
             {
               label: "Fun",
               items: [
-                { label: "Connect4", link: "/guide/fun/c4" },
-                { label: "Wordle", link: "/guide/fun/wordle" },
-                { label: "Fish", link: "/guide/fun/fish" },
+                { label: "Connect4", link: "/guides/fun/c4" },
+                { label: "Wordle", link: "/guides/fun/wordle" },
+                { label: "Fish", link: "/guides/fun/fish" },
               ],
             },
           ],
