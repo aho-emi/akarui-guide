@@ -20,12 +20,10 @@ export default defineConfig({
             },
             {
               label: "Economy",
-              collapsed: true,
               autogenerate: { directory: "/guides/economy" },
             },
             {
               label: "Fun",
-              collapsed: true,
               autogenerate: { directory: "/guides/fun" },
             },
           ],
