@@ -1,7 +1,6 @@
 ---
 title: Wordle
 description: Fun command
-pagefind: false
 sidebar:
   hidden: true
 prev: false
