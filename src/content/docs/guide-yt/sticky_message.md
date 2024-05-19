@@ -17,6 +17,10 @@ Command to send a message each time any user sends a message.
 >
 </iframe>
 
+<video src="https://youtu.be/YBN7Fuq7VTA?si=nZPYcdfyTCXNl4kV" width="1920" height="1080" controls></video>
+
+[![video](https://img.youtube.com/vi/nZPYcdfyTCXNl4kV/0.jpg)](https://www.youtube.com/watch?v=nZPYcdfyTCXNl4kV)
+
 [Youtube Link](https://youtu.be/YBN7Fuq7VTA?si=nZPYcdfyTCXNl4kV)
 
 This code works best in version6.7.1
