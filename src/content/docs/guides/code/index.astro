@@ -1,0 +1,15 @@
+---
+import { getCollection } from 'astro-starlight/utils';
+
+const codePages = await getCollection('content', [
+  'guides/code/9Jzpqv.md',
+  'guides/code/AxPi9G.md',
+  'guides/code/c8L0fq.md',
+]);
+---
+
+<div>
+  <div set:html={codePages['guides/code/page1'].body} />
+  <div set:html={codePages['guides/code/page2'].body} />
+  <div set:html={codePages['guides/code/page3'].body} />
+</div>
