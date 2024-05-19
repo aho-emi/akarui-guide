@@ -16,22 +16,22 @@ export default defineConfig({
             // Each item here is one entry in the navigation menu.
             {
               label: "Utility",
-              autogenerate: { directory: "utility" },
+              autogenerate: { directory: "/guides/utility" },
             },
             {
               label: "Economy",
               collapsed: true,
-              autogenerate: { directory: "economy" },
+              autogenerate: { directory: "/guides/economy" },
             },
             {
               label: "Fun",
               collapsed: true,
-              autogenerate: { directory: "fun" },
+              autogenerate: { directory: "/guides/fun" },
             },
             {
               label: "",
               collapsed: true,
-              autogenerate: { directory: "code" },
+              autogenerate: { directory: "/guides/code" },
             },
           ],
         },
