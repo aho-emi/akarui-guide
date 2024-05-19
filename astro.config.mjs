@@ -14,22 +14,27 @@ export default defineConfig({
           label: "Guides",
           items: [
             // Each item here is one entry in the navigation menu.
-            { label: "Sticky Message", link: "/guide-yt/sticky_message" },
+            {
+              label: "Utility",
+              items: [
+                { label: "Sticky Message", link: "/guide/sticky_message" },
+              ],
+            },
             {
               label: "Economy",
               items: [
-                { label: "Balance", link: "/guide-yt/economy/balance" },
-                { label: "Deposit", link: "/guide-yt/economy/deposit" },
-                { label: "Withdraw", link: "/guide-yt/economy/withdraw" },
-                { label: "Crime & Rob", link: "/guide-yt/economy/crime_rob" },
+                { label: "Balance", link: "/guide/economy/balance" },
+                { label: "Deposit", link: "/guide/economy/deposit" },
+                { label: "Withdraw", link: "/guide/economy/withdraw" },
+                { label: "Crime & Rob", link: "/guide/economy/crime_rob" },
               ],
             },
             {
               label: "Fun",
               items: [
-                { label: "Connect4", link: "/guide-yt/fun/c4" },
-                { label: "Wordle", link: "/guide-yt/fun/wordle" },
-                { label: "Fishcodetour", link: "/guide-yt/fun/fish" },
+                { label: "Connect4", link: "/guide/fun/c4" },
+                { label: "Wordle", link: "/guide/fun/wordle" },
+                { label: "Fish", link: "/guide/fun/fish" },
               ],
             },
           ],
