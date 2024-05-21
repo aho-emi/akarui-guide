@@ -136,7 +136,7 @@ return (r.emoji.name == emoji || r.emoji.id == emoji.split(":")[2]?.slice(0, -1)
 return c;
 }
 }, 0);
-if (reactionCount == 1 ) {
+if (reactionCount == 5 ) {
 
       const embed = new EmbedBuilder()
       .setAuthor({name: d.message.author.username, iconURL: d.message.author.displayAvatarURL({size: Number(512)}) })
